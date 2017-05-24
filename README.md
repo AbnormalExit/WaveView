@@ -2,15 +2,15 @@
 
 [TOC]
 
-#####效果图
+效果图
 
 ![enter image description here](http://chuantu.biz/t5/93/1495614694x2728309609.gif)
 
-####实现思路
+实现思路
 
 根据效果分析，首先利用Path的 `rQuadTo(float dx1, float dy1, float dx2, float dy2)`先画出静止的波纹，然后添加一个属性动画，利用动画改变path相应的坐标，实现波纹的移动。[path相关类容](https://developer.android.com/reference/android/graphics/Path.html)
 
-####具体实现
+具体实现
 
 1. 画出静止的贝塞尔曲线
 
@@ -81,6 +81,7 @@
         dy=0;
     }	
 ```
-####总结
+总结
+
 其实这个动画也不难，但是首先得先了解Path相关的API的用法，了解了简单了，所以写下实现的过程，以后自己好复习。
 
