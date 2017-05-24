@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WaveView</string>
+    <string name="reset">重置</string>
+    <string name="start">开始动画</string>
+</resources>
