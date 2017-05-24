@@ -61,7 +61,7 @@ public class PathTest extends View {
         canvas.drawPath(CCWRectpath, paint);
         canvas.drawPath(CWRectpath, paint);
         //依据路径写出文字
-        String text="风萧萧兮易水寒，壮士一去兮不复返";
+        String text="窗前明月光，疑是地上霜";
         paint.setColor(Color.GREEN);
         paint.setTextSize(35);
         canvas.drawTextOnPath(text, CCWRectpath, 0, 18, paint);//逆时针生成
